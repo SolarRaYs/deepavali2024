@@ -1,0 +1,40 @@
+body {
+    background-color: #f8e6a0; /* Soft yellow background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #5b3a0c; /* Dark brown color */
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for contrast */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.deepavali-image {
+    width: 80%; /* Responsive image */
+    max-width: 400px; /* Max width for larger screens */
+    margin: 20px 0; /* Margin around the image */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center; /* Center the quote horizontally */
+    align-items: center; /* Center the quote vertically */
+    height: 100%; /* Take full height */
+}
+
+.quote {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0; /* Margin around the quote */
+    max-width: 600px; /* Maximum width for the quote */
+    text-align: center; /* Center the text */
+}
